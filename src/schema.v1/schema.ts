@@ -21,6 +21,7 @@ type Message {
 type Query {
   channels: [Channel]    # "[]" means this is a list of channels
   channel(id: ID!): Channel
+  test: Int
 }
 # The mutation root type, used to define all mutations
 type Mutation {
